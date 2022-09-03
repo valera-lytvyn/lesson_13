@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+.services_title,
+.name_gallery {
+  font-size: 34px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.we_do_title,
+.about_title {
+  font-size: 34px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #3c3c3c;
+  font-weight: 700;
+}
+
+.contact_title {
+  font-size: 30px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #3c3c3c;
+  font-weight: 700;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lato';
+}
+
+.header {
+  background: url(../img/header_photo.jpg) center center no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 46.88%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 34.6% 0 17.3%;
+}
+
+.logo {
+  margin-bottom: 100px;
+}
+
+.header_title {
+  text-align: center;
+  margin: 100px 16.67% 40px;
+  font-size: 54px;
+  letter-spacing: 9px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.header_text {
+  text-align: center;
+  margin: 0 16.67%;
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.scroll {
+  margin: 100px 0;
+}
+
+.main {
+  flex: 1;
+  height: 100%;
+}
+
+.about {
+  margin: 25% 0;
+}
+
+.about_wrap,
+.we_do_wrap,
+.contact_wrap {
+  margin: 0 auto;
+  border: 2px solid #000;
+  width: 46.88%;
+}
+
+.about_title,
+.services_title,
+.contact_title {
+  width: 46.67%;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.about_text,
+.contact_text {
+  margin: 0 16.67%;
+  text-align: center;
+  font-size: 16px;
+  line-height: 26px;
+  color: #3c3c3c;
+  font-weight: 300;
+}
+
+.part_2 {
+  margin: 20px 0;
+}
+
+.services_background {
+  background: url(../img/services_background.jpg) center center no-repeat;
+  background-size: auto 100%;
+  min-height: 488px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services_content {
+  margin: 18.4% 0 22.4%;
+  width: 46.88%;
+}
+
+.services_wrap {
+  margin: 0 auto;
+  border: 2px solid #fff;
+  /* width: 46.88%; */
+}
+
+.services_text {
+  margin: 0 16.67% 20px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.we_do_wrap {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.we_do,
+.contact {
+  margin: 100px auto;
+
+}
+
+.we_do_title {
+  width: 46.67%;
+  text-align: center;
+}
+
+.logotype {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.we_do_cell_title {
+  text-align: center;
+  margin: 40px 0;
+  font-size: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #3c3c3c;
+  font-weight: 700;
+}
+
+.we_do_cell_text {
+  margin: 0 16.67%;
+  text-align: center;
+  font-size: 14px;
+  line-height: 26px;
+  color: #3c3c3c;
+  font-weight: 300;
+}
+
+.we_do_cell_text:last-child {
+  margin-bottom: 100px;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+}
+
+.row_1,
+.row_2 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.photo_wrap {
+  position: relative;
+}
+
+.photo_wrap:nth-child(2n) {
+  margin: 0px 10px;
+}
+
+.name_gallery {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  z-index: 20;
+}
+
+.button_contact {
+  width: 46.67%;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 16px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 400;
+  margin: 50px auto;
+  background-color: #3c3c3c;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+}
+
+.logo_footer {
+  margin-right: 25px;
+}
+
+.footer_text {
+  text-indent: 25px;
+}
+
+@media (max-width:1932px) {
+
+  .row_1,
+  .row_2 {
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+  }
+
+  .photo_wrap:nth-child(2) {
+    order: +1;
+  }
+
+  .photo_wrap {
+    margin: 10px 5px;
+  }
+
+  .we_do_wrap {
+    width: 76.88%;
+  }
+}
+
+@media (max-width:1120px) {
+
+  .row_1,
+  .row_2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .name_gallery {
+    bottom: 5%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .photo_wrap:first-child {
+    margin-bottom: 0px;
+  }
+
+  .photo_wrap img {
+    max-width: 550px;
+  }
+}
+
+@media (max-width:992px) {
+
+  .header_title {
+    font-size: 34px;
+    line-height: 45px;
+  }
+
+  .container {
+    margin: 10% 0px;
+  }
+
+  .scroll {
+    display: none;
+  }
+
+  .about,
+  .services_content {
+    margin: 10% 0;
+  }
+
+  .we_do_wrap {
+    flex-direction: column;
+  }
+
+  .about_title,
+  .services_title,
+  .contact_title,
+  .we_do_title {
+    font-size: 24px;
+    width: 80%;
+    margin-bottom: 35px;
+  }
+
+  .logotype {
+    margin-top: 50px;
+  }
+
+  .container,
+  .about_wrap,
+  .we_do_wrap,
+  .contact_wrap,
+  .services_content {
+    width: 76.88%;
+  }
+
+  .we_do_cell_text {
+    margin: 0 10%;
+  }
+}
+
+@media (max-width:576px) {
+  .header_title {
+    font-size: 28px;
+    line-height: 35px;
+    margin-top: 0;
+  }
+
+  .logo {
+    margin-bottom: 25px;
+  }
+
+  .container,
+  .about_wrap,
+  .we_do_wrap,
+  .contact_wrap,
+  .services_content {
+    width: 95%;
+  }
+
+  .header_title,
+  .about_text,
+  .contact_text,
+  .we_do_cell_text {
+    margin: 0 5%;
+  }
+
+  .header_text,
+  .services_text {
+    margin: 20px 5%;
+  }
+
+  .about,
+  .services_content {
+    margin: 10% 0;
+  }
+
+  .services_background {
+    min-height: fit-content;
+  }
+
+  .we_do {
+    margin: 40px auto;
+  }
+
+  .logotype {
+    margin-top: 0px;
+  }
+
+  .we_do,
+  .contact {
+    margin: 40px auto;
+  }
+
+  .footer {
+    height: 80px;
+  }
+
+  .photo_wrap img {
+    max-width: 475px;
+  }
+}
+
+@media (max-width:475px) {
+  .photo_wrap img {
+    max-width: 375px;
+  }
+}
+
+@media (max-width:375px) {
+  .photo_wrap img {
+    max-width: 320px;
+  }
+}
